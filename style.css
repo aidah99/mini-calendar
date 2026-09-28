@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing : border-box ;
+    font-family:  serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.hero{
+    width: 100%;
+    align-items : center ;
+    justify-content : center ;
+    display : flex;
+    min-height: 100vh;
+    background-color: #110049;
+    
+}
+
+.calender {
+    width: 400px;
+    height: 250px;
+    align-items : center ;
+    background: white;
+    display :flex;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.left , .right {
+    height: 100%;
+    display : flex;
+    justify-content : center;
+    align-items :  center ;
+    flex-direction : column;
+    font-size : 24px;
+}
+.right {
+    background: red;
+    color: white;
+    width: 42%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left{
+    width: 58%;
+    
+}
+#date{
+    font-size: 100px ;
+    line-height: 90px;
+}
